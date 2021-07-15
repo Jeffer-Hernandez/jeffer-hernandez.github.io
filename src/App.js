@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="app">
-      wussup!
+      <Topbar/>
     </div>
   );
 }
