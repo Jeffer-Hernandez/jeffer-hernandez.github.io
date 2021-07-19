@@ -3,12 +3,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left{
+            left: 100px;
+            transform: rotateY(180deg)
+        }
+
+        &.right{
+            right: 100px;
+
+        }
+    }
 
     .slider{
         height: 350px;
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container{
             width: 100vw;
@@ -44,7 +62,7 @@
                             width: 40px;
                             height: 40px;
                             border-radius: 50%;
-                            background-color: coral;
+                            background-color: rgb(245, 179, 155);
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -74,6 +92,16 @@
                 .right{
                     flex: 8;
                     height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+
+                    img{
+                        width: 400px;
+                        transform: rotate(-10deg)
+                    }
+
                     
                 }
 
