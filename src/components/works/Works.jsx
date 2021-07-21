@@ -8,26 +8,29 @@ export default function Works() {
         {
             id: "1",
             icon: "assets/mobile.png",
-            title: "Web Design",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            title: "Bootcamp Graduate",
+            desc: "I participated in an intensive Software Engineering bootcamp at The Flatiron School.",
             img: 
-            ""
+            "assets/flatiron.jpg",
+            category: "Education"
         },
         {
             id: "2",
             icon: "assets/globe.png",
-            title: "Mobile Design",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            title: "New York Cares Volunteer",
+            desc: "I am a monthly volunteer at my community pantry.",
             img: 
-            ""
+            "assets/new york cares.jpg",
+            category: "Interesting Fact"
         },
         {
             id: "3",
             icon: "assets/writing.png",
-            title: "ios App Design",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            title: "BNY Mellon Intern",
+            desc: "I worked on a Jenkins to Gitlab migration with the Enterprise Risk Platform team.",
             img: 
-            ""
+            "assets/bny mellon.png",
+            category: "Experience"
         },
     ];
 
@@ -52,12 +55,12 @@ export default function Works() {
                                     </div>
                                     <h2>{d.title}</h2>
                                     <p>{d.desc} </p>
-                                    <span>Projects</span>
+                                    <span>{d.category}</span>
                                 </div>
                             </div>
                             <div className="right">
                                 <img 
-                                src="assets/mobile.png" 
+                                src={d.img}
                                 alt="" />
                             </div>
                         </div>
