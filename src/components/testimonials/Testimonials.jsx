@@ -5,31 +5,31 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
-            name: "Alex Kalinski",
-            title: "Co-Founder of Delka",
+            name: "Vaino Narma",
+            title: "CMO at BNY Mellon",
             img: 
-            "assets/man-with-cigarette.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique earum quasi reprehenderit sint ratione et consectetur velit voluptate." 
+            "assets/Vaino Narma.jpeg",
+            icon: "assets/linkedin.png",
+            desc: "Jeff is a curious, analytical thinker. I'm looking forward to seeing his growth." 
         },
         {
             id: 2,
             name: "Jerry Rosenzweig",
             title: "Director at BNY Mellon",
             img: 
-            "assets/man-with-cigarette.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique earum quasi reprehenderit sint ratione et consectetur velit voluptate.",
+            "assets/Jerry Rosenzweig.jpeg",
+            icon: "assets/linkedin.png",
+            desc: "I mentored Jeff during the Spring semester. He's very driven, and I'm confident he will thrive in the years to come.",
             featured: true,
         },
         {
             id: 3,
-            name: "Yesenia Lopez-Hernandez",
-            title: "Community Manger at Gotham Real Estate",
+            name: "Remysell Salas",
+            title: "Strategist & Professor",
             img: 
-            "assets/man-with-cigarette.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique earum quasi reprehenderit sint ratione et consectetur velit voluptate." 
+            "assets/remysell salas.jpeg",
+            icon: "assets/linkedin.png",
+            desc: "Jeff was a pleasure to have in my class!" 
         },
 
     ]
