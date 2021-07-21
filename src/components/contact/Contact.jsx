@@ -7,16 +7,17 @@ export default function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         setMessage(true)
+        
     }
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/handshake-icon.jpg" alt="" />
+                <img src="assets/handshake_heart.png" alt="" />
             </div>
             <div className="right">
                 <h2>Contact</h2>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Email" />
+                    <input type="text" placeholder="Email" onChange={(e) => setMessage(e.target.value)}/>
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
                     {message && <span> Thanks! I will reply ASAP :)</span>}

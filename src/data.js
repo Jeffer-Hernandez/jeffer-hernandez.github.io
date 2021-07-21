@@ -1,118 +1,59 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Social Media App",
+        title: "Amazon Clone App",
         img:
-        "assets/mobile.png"
+        "assets/amazon-icon.png"
     },
     {
         id: 2,
-        title: "Food Delivery App",
+        title: "Twitter Clone App",
         img:
-        "assets/mobile.png"
+        "assets/twitter logo.png"
     },
     {
         id: 3,
-        title: "Comic-Book Reader",
+        title: "Netflix Clone App",
         img:
-        "assets/mobile.png"
+        "assets/Netflix.png"
     },
     {
         id: 4,
-        title: "Instagram Clone",
+        title: "Coming Soon",
         img:
-        "assets/mobile.png"
-    },
-    {
-        id: 5,
-        title: "Youtube Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 6,
-        title: "Netflix Clone",
-        img:
-        "assets/mobile.png"
+        "assets/instagram-icon.png"
     },
 ]
 
 export const webPortfolio = [
     {
         id: 1,
-        title: "Social Media App",
+        title: "Amazon Clone App",
         img:
-        "assets/mobile.png"
+        "assets/amazon-icon.png"
     },
     {
         id: 2,
-        title: "Food Delivery App",
+        title: "Twitter Clone App",
         img:
-        "assets/mobile.png"
+        "assets/twitter logo.png"
     },
     {
         id: 3,
-        title: "Comic-Book Reader",
+        title: "Netflix Clone App",
         img:
-        "assets/mobile.png"
-    },
-    {
-        id: 4,
-        title: "Instagram Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 5,
-        title: "Youtube Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 6,
-        title: "Netflix Clone",
-        img:
-        "assets/mobile.png"
+        "assets/Netflix.png"
     },
 ]
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: "Social Media App",
+        title: "Coming Soon",
         img:
-        "assets/mobile.png"
+        "assets/instagram-icon.png"
     },
-    {
-        id: 2,
-        title: "Food Delivery App",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 3,
-        title: "Comic-Book Reader",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 4,
-        title: "Instagram Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 5,
-        title: "Youtube Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 6,
-        title: "Netflix Clone",
-        img:
-        "assets/mobile.png"
-    },
+    //none yet
 ]
 
 export const iosPortfolio = [
@@ -122,34 +63,5 @@ export const iosPortfolio = [
         img:
         "assets/mobile.png"
     },
-    {
-        id: 2,
-        title: "Food Delivery App",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 3,
-        title: "Comic-Book Reader",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 4,
-        title: "Instagram Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 5,
-        title: "Youtube Clone",
-        img:
-        "assets/mobile.png"
-    },
-    {
-        id: 6,
-        title: "Netflix Clone",
-        img:
-        "assets/mobile.png"
-    },
+
 ]
