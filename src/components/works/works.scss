@@ -118,7 +118,7 @@
                         }
 
                         p{
-                            font-size: 13px;
+                            font-size: 15px;
 
                             @include mobile{
                                 display: none;
@@ -144,8 +144,8 @@
                     overflow: hidden;
 
                     img{
-                        width: 400px;
-                        transform: rotate(-10deg)
+                        width: 300px;
+                        // transform: rotate(-20deg)
                     }
 
                     

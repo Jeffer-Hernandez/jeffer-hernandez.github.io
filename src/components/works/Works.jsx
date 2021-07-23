@@ -27,7 +27,7 @@ export default function Works() {
             id: "3",
             icon: "assets/writing.png",
             title: "BNY Mellon Intern",
-            desc: "I worked on a Jenkins to Gitlab migration with the Enterprise Risk Platform team.",
+            desc: "I worked on a Jenkins to Gitlab migration with the Enterprise Risk Platform team during a 6-week internship.",
             img: 
             "assets/bny mellon.png",
             category: "Experience"
