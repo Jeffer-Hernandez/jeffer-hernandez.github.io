@@ -1,5 +1,6 @@
 import "./topbar.scss"
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail, LinkedIn, GitHub} from "@material-ui/icons"
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
@@ -14,10 +15,26 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                         <span> (347) 422-4001 </span>
                     </div>
 
-                    <div className="itemContainer">
-                        <Mail className="icon"/>
-                        <span> jefferhernandez92@gmail.com </span>
+
+                    <div className="itemContainer" href="#contact">
+                        
+                        <a href="#contact">
+                            <Mail className="icon"/>
+                            <span  >jefferhernandez92@gmail.com </span>
+                        </a> 
                     </div>
+
+                    <a href="https://www.linkedin.com/in/jeffer-hernandez/">
+                            <LinkedIn className="icon"/>
+                    </a>        
+                    
+                    <a href="https://github.com/Jeffer-Hernandez">
+                        <GitHub className="icon"/>
+                    </a>
+
+                    <a href="https://drive.google.com/file/d/1gYZgbEzvfEcp4h32U9f06Eze7iQBMqjd/view?usp=sharing">
+                        <AccountBoxIcon className="icon"/>
+                    </a>
             
                 </div>
 
